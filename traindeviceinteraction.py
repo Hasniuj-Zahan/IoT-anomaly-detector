@@ -131,13 +131,3 @@ sn.heatmap(confusion_matrix, annot=True)
 plt.xlabel('Predicted')
 plt.ylabel('Truth')
 plt.show()
-
-import os
-import psutil
-
-pid = os.getpid()
-print(pid)
-ps = psutil.Process(pid)
-
-memoryUse = ps.memory_info()
-print(memoryUse)
