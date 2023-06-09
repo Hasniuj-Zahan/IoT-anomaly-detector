@@ -1,4 +1,5 @@
 # IoT-anomaly-detector (IoT-AD)
+This is the code used for the following publication: H. Zahan, Md W. Al Azad, I. Ali, and S. Mastorakis, "IoT-ad: A framework to detect anomalies among interconnected IoT devices." IEEE Internet of Things Journal, 2023.
 
 This GitHub repository contains a collection of scripts for analyzing device actions in a smart home environment. The scripts are designed to preprocess data, train models, detect anomalies, and rollback device actions if necessary. The following is an overview of the scripts included in this project: 
 
