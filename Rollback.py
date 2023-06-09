@@ -119,12 +119,3 @@ print(a.log[0][-1])
 #print (a.device)
 
 print("---%s seconds ---" % (time.time() -start_time))
-
-print('The CPU usage is: ', psutil.cpu_percent(1))
-
-pid = os.getpid()
-#print(pid)
-ps = psutil.Process(pid)
-
-memoryUse = ps.memory_info()
-print(memoryUse)
