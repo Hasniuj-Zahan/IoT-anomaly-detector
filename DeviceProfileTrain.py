@@ -25,7 +25,7 @@ os.system("tshark -r PlugWM.pcap -T fields -2 -e frame.time_epoch -e ip.src -e i
 os.system("tshark -r bulb1.pcap -T fields -2 -e frame.time_epoch -e ip.src -e ip.dst -e frame.len -e tcp.port -e tcp.flags  -E separator=, -E occurrence=f -R (ip.addr==192.168.1.26)> bulb1.csv")
 
 for i in range(3):
-    file1 = filedialog.askopenfilename(initialdir="C:\\Users\\Asus\\PycharmProjects\\TraceAnalysis")
+    file1 = filedialog.askopenfilename(initialdir="path\to\the\dataset\directory")
     with open(file1, newline='') as f:
         r = csv.reader(f)
         data = [line for line in r]

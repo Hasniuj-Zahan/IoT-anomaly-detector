@@ -89,14 +89,3 @@ print("---%s seconds ---" % (time.time()- prediction_time))
 print('The CPU usage is: ', psutil.cpu_percent(1))
 #print("---% seconds ---" % (time.time() - start_time))
 #print(" : in : " + " : prediction : " + class_labels[prediction[0]])
-
-
-import os
-import psutil
-
-pid = os.getpid()
-print(pid)
-ps = psutil.Process(pid)
-
-memoryUse = ps.memory_info()
-print(memoryUse)
