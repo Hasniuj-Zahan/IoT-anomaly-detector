@@ -22,8 +22,8 @@ This GitHub repository contains a collection of scripts for analyzing device act
 
 To use these scripts, follow these steps:  
 
-Clone the repository to your local machine.  
+1. Clone the repository to your local machine.  
 
-Install the necessary dependencies and libraries required for running the scripts.  
+2. Install the necessary dependencies and libraries required for running the scripts.  
 
-Run each script in the specified sequence as described above, ensuring the proper data inputs and configuration settings. 
+3. Run each script in the specified sequence as described above, ensuring the proper data inputs and configuration settings. 
